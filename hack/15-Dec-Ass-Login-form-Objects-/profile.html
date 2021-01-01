@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logOut">
+            <a class="topBtn" href="index.html">
+                Log Out
+            </a>
+        </div>
+        <div class="profileName" id="NameP">
+
+        </div>
+    </header>
+
+    <div class="profile">
+        <br><br>
+        <label>Email :</label>
+        <span style="text-align: center;" id="EmailP"> </span>
+        <br><br><br>
+        <label>Gender :</label>
+        <span style="text-align: center;" id="GenderP"> </span>
+        <br><br>
+        <label>Phone No :</label>
+        <span style="text-align: center;" id="NumberP"> </span>
+        <br><br>
+        <label>Nationality :</label>
+        <span style="text-align: center;" id="nationalityP"> </span>
+        <br><br>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+<!-- <script>
+    let currentuser = JSON.parse(localStorage.getItem("newSigninData"));
+    if (currentuser) {
+        document.getElementById("NameP").innerHTML = currentuser.name;
+        document.getElementById("EmailP").innerHTML = currentuser.email;
+        document.getElementById("GenderP").innerHTML = currentuser.gender;
+        document.getElementById("nationalityP").innerHTML = currentuser.nationality;
+        document.getElementById("NumberP").innerHTML = currentuser.number;
+    }
+</script> -->
+
+</html>
